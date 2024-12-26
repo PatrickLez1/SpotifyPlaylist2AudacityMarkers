@@ -6,12 +6,12 @@ It does note take care of ad interludes. So you might need a premium spotify acc
 To be able to run the script you need spotify for developers credential.
 Visit https://developer.spotify.com/, go to your Dashboard and click on "Create app".
 * The App name and App description doesn't matter here. Put anything.
-* For the redirect Redirect URIs, you can choose any valide adresse. For instance, https://www.google.fr hworks.
+* For the redirect Redirect URIs, you can choose any valid adresse. For instance, https://www.google.fr works.
 * Tick Web API for the "Which API/SDKs are you planning to use?" section.
 
-Once the app saved, go bask to the dashboard and open the newly created app.
+Once the app is saved, go back to the dashboard and open the newly created app.
 In the settings, in the first section you will find the Client ID. Click on View client secret to get the Client secret value.
-These two values need to be copy and paste in the R code.
+These two values need to be copied and pasted in the R code.
 
 ## run the code
 To run the code, you will need to install the libraries jsonlite and httr.
