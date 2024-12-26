@@ -4,7 +4,7 @@
 library(jsonlite,httr)
 
 #parameters
-playlistID<-"5EpBGuaHk34P1Z01GBIFLK" #Put here the playlist ID as it appears in the url of the spotify playlist
+playlistID<-"37i9dQZF1DZ06evO05tE88" #Put here the playlist ID as it appears in the url of the spotify playlist
 saveDirectory<-"." #directory where to save the .txt files with the audacity markers
 client_id<-""      #Spotify for developers  client_id
 client_secret<-""  #Spotify for developers  client_secret
